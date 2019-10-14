@@ -15,7 +15,7 @@
               <a href="/deets" id="nava">WEDDING</a>
             </li>
             <li>
-              <a href="/photos" id="nava">PHOTOS</a>
+              <a href="/faq" id="nava">FAQ</a>
             </li>
             <li>
               <a href="/registry" id="nava">REGISTRY</a>
