@@ -2,7 +2,7 @@
   <div>
     <header id="header" class="upper-logo">
       <div id="upper-logo">
-        <a href="/" id="title">Sonya & Sage</a>
+        <a href="/" id="title">SAGE + SONYA</a>
       </div>
       <hr />
       <div id="top-nav">
@@ -50,9 +50,9 @@ header {
   list-style: none;
 }
 #title {
-  color: #1c1c1c;
+  color: #084009;
   cursor: pointer;
-  font-family: garamond-premier-pro-display;
+  font-family: "Playfair Display", serif;
   font-size: 60px;
   line-height: 1.2em;
   text-decoration: none;
@@ -65,10 +65,12 @@ header {
   display: inline-block;
 }
 #nava {
-  color: rgba(28, 28, 28, 0.8);
+  /* color: rgba(28, 28, 28, 0.8); */
+  color: #084009;
+  font-family: "Helvetica";
   text-decoration: none;
-  font-size: 12px;
-  margin: 16px;
+  font-size: 1.17em;
+  margin: 5em;
 }
 #nav-list:first-child {
   color: rgba(28, 28, 28, 0.8);
@@ -76,6 +78,7 @@ header {
   font-size: 12px;
 }
 hr {
+  border-color: #c1dbc1;
   width: 60%;
 }
 </style>
