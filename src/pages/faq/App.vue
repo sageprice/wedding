@@ -6,7 +6,8 @@
       If you want to stay right on site, we've booked a block of 10 rooms at the
       Endicott House itself, and 10 in the adjacent Brooks Center. To book, use
       <a href="https://mitendicotthouse.org/?p=15279">this link</a> with the
-      password "LP Wedding". Please let us know if you'd like to do this!
+      password "LP Wedding" (note, there is a space between those words). Please
+      let us know if you're interested!
     </p>
     <p>
       You're also welcome to stay anywhere else in Boston! We're still figuring
