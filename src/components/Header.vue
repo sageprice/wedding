@@ -8,21 +8,12 @@
       <div id="top-nav">
         <nav class="main-nav">
           <ul id="nav-list">
-            <li>
-              <a href="/" id="nava">HOME</a>
-            </li>
-            <li>
-              <a href="/deets" id="nava">WEDDING</a>
-            </li>
-            <li>
-              <a href="/faq" id="nava">FAQ</a>
-            </li>
-            <li>
-              <a href="/registry" id="nava">REGISTRY</a>
-            </li>
-            <li>
-              <a href="/rsvp" id="nava">RSVP</a>
-            </li>
+            <!-- Note: router-link is rendered as an <a> element -->
+            <router-link to="/">HOME</router-link>
+            <router-link to="/deets">WEDDING</router-link>
+            <router-link to="/faq">FAQ</router-link>
+            <router-link to="/registry">REGISTRY</router-link>
+            <router-link to="/rsvp">RSVP</router-link>
           </ul>
         </nav>
       </div>
@@ -35,8 +26,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "Header",
-  components: {}
+  name: "Header"
 });
 </script>
 
@@ -61,21 +51,18 @@ header {
   text-align: center;
   padding-inline-start: 0px;
 }
-#nav-list li {
-  display: inline-block;
-}
-#nava {
-  /* color: rgba(28, 28, 28, 0.8); */
+a {
   color: #084009;
   font-family: "Helvetica";
   text-decoration: none;
   font-size: 1.17em;
   margin: 5em;
 }
-#nav-list:first-child {
-  color: rgba(28, 28, 28, 0.8);
-  text-decoration: none;
-  font-size: 12px;
+a:hover {
+  color: #c1dbc1;
+}
+.router-link-exact-active {
+  font-weight: bold;
 }
 hr {
   border-color: #c1dbc1;

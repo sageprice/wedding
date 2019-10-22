@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <Header />
+  <div id="faq">
     <h3>WHERE TO STAY</h3>
     <p>
       If you want to stay right on site, we've booked a block of 10 rooms at the
@@ -23,13 +22,8 @@
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-
 export default {
-  name: "app",
-  components: {
-    Header
-  }
+  name: "faq"
 };
 </script>
 

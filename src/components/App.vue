@@ -1,13 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <p>
-      Coming eventually. But for now,
-      <a href="https://vote.gov">register to vote</a>!
-    </p>
-    <br />
-    <br />
-    <br />
+    <router-view></router-view>
   </div>
 </template>
 
@@ -24,7 +18,6 @@ export default {
 
 <style>
 #app {
-  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -35,6 +28,7 @@ export default {
   margin-bottom: 200px;
 }
 p {
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   margin-left: 30%;
   margin-right: 30%;

@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <Header />
+  <div id="deets">
     <h3>WHO</h3>
     <p>
       Us! Also hopefully you!
@@ -44,13 +43,8 @@
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-
 export default {
-  name: "app",
-  components: {
-    Header
-  }
+  name: "deets"
 };
 </script>
 

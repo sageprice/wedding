@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <Header />
+  <div id="rsvp">
     <p>
       When I grow up, I'm gonna be a Google Form™.
     </p>
@@ -11,13 +10,8 @@
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-
 export default {
-  name: "app",
-  components: {
-    Header
-  }
+  name: "rsvp"
 };
 </script>
 
