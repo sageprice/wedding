@@ -1,7 +1,15 @@
 <template>
   <div id="app">
+    <!-- Every page should have the header. -->
     <Header />
+
+    <!-- Inject page content from router. -->
     <router-view></router-view>
+
+    <!-- I like bottom of page whitespace. -->
+    <br />
+    <br />
+    <br />
   </div>
 </template>
 
@@ -24,8 +32,10 @@ export default {
   color: #262b26;
   margin-top: 60px;
 }
-#app:last-child {
-  margin-bottom: 200px;
+h3 {
+  font-family: "Helvetica";
+  font-weight: normal;
+  color: #084009;
 }
 p {
   font-family: "Playfair Display", serif;

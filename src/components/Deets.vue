@@ -36,9 +36,6 @@
       We've been together a long time and we like each other a lot. Throwing a
       party seemed like a good thing to do.
     </p>
-    <br />
-    <br />
-    <br />
   </div>
 </template>
 
@@ -47,27 +44,3 @@ export default {
   name: "deets"
 };
 </script>
-
-<style>
-#app {
-  font-family: "Playfair Display", serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 60px;
-}
-#app:last-child {
-  margin-bottom: 200px;
-}
-h3 {
-  font-family: "Helvetica";
-  font-weight: normal;
-  color: #084009;
-}
-p {
-  color: #262b26;
-  font-size: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-</style>
