@@ -23,3 +23,10 @@ export default {
   name: "faq"
 };
 </script>
+
+<style scoped>
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  }
+</style>

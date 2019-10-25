@@ -30,6 +30,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #262b26;
+
 }
 h3 {
   font-family: "Helvetica";
@@ -38,8 +39,9 @@ h3 {
 }
 p {
   font-family: "Playfair Display", serif;
-  font-size: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
+  font-size: 17px;
+  margin-left: 31%;
+  margin-right: 31%;
+
 }
 </style>

@@ -64,7 +64,7 @@ a {
   color: #084009;
   font-family: "Helvetica";
   text-decoration: none;
-  font-size: 1.17em;
+  font-size: 1em;
   /* margin: 5em; */
 }
 a:hover {
