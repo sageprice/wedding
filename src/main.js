@@ -49,7 +49,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   if (to.meta.requiresAuth) {
     // lol client-side auth. pls don't hack me
-    if (localStorage.pw != "12345" && localStorage.pw != "thepriceisright") {
+    if (localStorage.pw != "thepriceisright") {
       next("/auth");
     } else {
       next();
