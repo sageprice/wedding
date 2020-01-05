@@ -26,7 +26,7 @@ export default {
       if (pw === "epsteindidntkillhimself" || pw === "staywoke") {
         this.password = "";
         this.isWoke = true;
-      } else if (pw === "thepriceisright") {
+      } else if (pw === "mollycat") {
         this.$router.push("/");
       } else if (pw === "ourunion") {
         this.password = "";
