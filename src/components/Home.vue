@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <p>
-      We're getting married! Please join us on September 19, 2020 to celebrate!
+      We're getting married! Please join us on September 4, 2021 to celebrate!
     </p>
     <p>
       If you're here, ideally you have been invited to our wedding. If you've

@@ -12,8 +12,13 @@
     <br />
     <h3>WHEN</h3>
     <p>
-      September 19, 2020. Ceremony will take place at 4:30 PM, with reception to
-      follow.
+      <strike>September 19, 2020</strike>
+    </p>
+    <p>
+      September 4, 2021.
+    </p>
+    <p>
+      Ceremony will take place at 4:30 PM, with reception to follow.
     </p>
     <br />
     <h3>WHERE</h3>
