@@ -15,11 +15,17 @@
 
 <script>
 import Header from "@/components/Header.vue";
+import { emojiCursor } from "@/scripts/emojicursor.js";
 
 export default {
   name: "app",
   components: {
     Header
+  },
+  mounted() {
+    if ("swag" in this.$route.query) {
+      new emojiCursor();
+    }
   }
 };
 </script>
